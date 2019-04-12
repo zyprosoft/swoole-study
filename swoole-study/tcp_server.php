@@ -21,3 +21,4 @@ $serv->on('close',function ($serv,$fd){
 });
 
 $serv->start();
+?>
