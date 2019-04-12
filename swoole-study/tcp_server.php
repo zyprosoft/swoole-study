@@ -12,7 +12,7 @@ $serv->on('connect',function ($serv,$fd){
    echo "Client: connect.\n";
 });
 
-$serv->on('recieve',function ($serv,$fd,$from_id,$data){
+$serv->on('receive',function ($serv,$fd,$from_id,$data){
     $serv->send($fd,"server:".$data);
 });
 
