@@ -17,7 +17,7 @@ $serv->on('recieve',function ($serv,$fd,$from_id,$data){
 });
 
 $serv->on('close',function ($serv,$fd){
-    dcho "Client: Close\n";
+    echo "Client: Close\n";
 });
 
 $serv->start();
